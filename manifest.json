@@ -1,7 +1,7 @@
 
 {
-    "name": "YunoHost example app",
-    "id": "ynhexample",
+    "name": "YELLOW CMS",
+    "id": "yellowcms",
     "packaging_format": 1,
     "description": {
         "en": "CMS for simple website",
