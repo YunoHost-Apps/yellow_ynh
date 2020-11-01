@@ -105,7 +105,7 @@ ynh_add_fpm_config --phpversion=$YNH_PHP_VERSION --package="$extra_php_dependenc
 
 # Set permissions on app files
 chown -R www-data:www-data $final_path
-chmod -R 755 $final_path
+chmod -R a+rw $final_path
 
 #=================================================
 # INTEGRATE SERVICE IN YUNOHOST

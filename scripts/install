@@ -89,7 +89,7 @@ phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 
 # Set permissions to app files
 chown -R www-data:www-data $final_path
-chmod -R 755 $final_path
+chmod -R a+rw $final_path
 
 #=================================================
 # SETUP SSOWAT
