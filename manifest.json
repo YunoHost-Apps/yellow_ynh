@@ -6,6 +6,7 @@
         "en": "CMS for simple website",
         "fr": "CMS pour un site simple"
     },
+    "version": "0.8.16~ynh1",
     "url": "https://datenstrom.se/yellow/",
     "license": "GPL-2.0-only",
     "maintainer": {
@@ -40,7 +41,7 @@
                     "fr": "Choisissez un chemin pour Yellow CMS"
                 },
                 "example": "/example",
-                "default": "/example"
+                "default": "/yellow"
             },
             {
                 "name": "is_public",
