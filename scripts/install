@@ -84,36 +84,11 @@ ynh_add_fpm_config --phpversion=$YNH_PHP_VERSION
 phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 
 #=================================================
-# SPECIFIC SETUP
-#=================================================
-# CONFIGURE TTRSS
-#=================================================
-# ynh_script_progression --message="Configuring ttrss..." --weight=1
-
-# cp ../conf/config.php "$final_path/config.php"
-
-# # Change variables in ttrss configuration
-# ynh_replace_string --match_string="__DBNAME__" --replace_string="$db_name" --target_file="$final_path/config.php"
-# ynh_replace_string --match_string="__DBPWD__" --replace_string="$db_pwd" --target_file="$final_path/config.php"
-# ynh_replace_string --match_string="__DOMAINPATH__" --replace_string="https://$domain$path_url" --target_file="$final_path/config.php"
-
-# # Recalculate and store the config file checksum into the app settings
-# ynh_store_file_checksum --file="$final_path/config.php"
-
-#=================================================
-# SETUP SYSTEMD
-#=================================================
-ynh_script_progression --message="Configuring a systemd service..." --weight=2
-
-ynh_add_systemd_config
-
-#=================================================
 # SECURE FILES AND DIRECTORIES
 #=================================================
 
 # Set permissions to app files
 chown -R root: $final_path
-chown -R $app $final_path/{cache,feed-icons,lock}
 
 #=================================================
 # START TTRSS IN BACKGROUND
@@ -127,7 +102,13 @@ ynh_systemd_action --service_name=$app --action=start
 #=================================================
 ynh_script_progression --message="Configuring SSOwat..." --weight=1
 
-ynh_app_setting_set --app=$app --key=skipped_uris --value="/public.php,/api,/opml.php?op=publish"
+# Make app public if necessary or protect it
+if [ $is_public -eq 1 ]
+then
+	# Everyone can access the app.
+	# The "main" permission is automatically created before the install script.
+	 	ynh_permission_update --permission "main" --add "visitors"
+fi
 
 #=================================================
 # RELOAD NGINX
