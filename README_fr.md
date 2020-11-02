@@ -1,4 +1,4 @@
-# Datenstrom Yellow pour YunoHost
+# Yellow pour YunoHost
 
 [![Niveau d'intégration](https://dash.yunohost.org/integration/yellow.svg)](https://dash.yunohost.org/appci/app/yellow) ![](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)  
 [![Installer Yellow avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=yellow)
