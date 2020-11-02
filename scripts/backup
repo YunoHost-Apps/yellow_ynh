@@ -6,55 +6,52 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-source _common.sh
+source ../settings/scripts/_common.sh
 source /usr/share/yunohost/helpers
+
+#=================================================
+# MANAGE SCRIPT FAILURE
+#=================================================
+
+# Exit if an error occurs during the execution of the script
+ynh_abort_if_errors
 
 #=================================================
 # LOAD SETTINGS
 #=================================================
-ynh_script_progression --message="Loading installation settings..." --weight=1
+ynh_print_info --message="Loading installation settings..."
 
 app=$YNH_APP_INSTANCE_NAME
 
-domain=$(ynh_app_setting_get --app=$app --key=domain)
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
+domain=$(ynh_app_setting_get --app=$app --key=domain)
+phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 
 #=================================================
-# REMOVE APP MAIN DIR
+# DECLARE DATA AND CONF FILES TO BACKUP
 #=================================================
-ynh_script_progression --message="Removing app main directory..." --weight=2
-
-# Remove the app directory securely
-ynh_secure_remove --file="$final_path"
+ynh_print_info --message="Declaring files to be backed up..."
 
 #=================================================
-# REMOVE NGINX CONFIGURATION
+# BACKUP THE APP MAIN DIR
 #=================================================
-ynh_script_progression --message="Removing NGINX web server configuration..." --weight=1
 
-# Remove the dedicated NGINX config
-ynh_remove_nginx_config
+ynh_backup --src_path="$final_path"
 
 #=================================================
-# REMOVE PHP-FPM CONFIGURATION
+# BACKUP THE NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Removing PHP-FPM configuration..." --weight=3
 
-# Remove the dedicated PHP-FPM config
-ynh_remove_fpm_config
+ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 
 #=================================================
-# GENERIC FINALIZATION
+# BACKUP THE PHP-FPM CONFIGURATION
 #=================================================
-# REMOVE DEDICATED USER
-#=================================================
-ynh_script_progression --message="Removing the dedicated system user..." --weight=1
 
-# Delete a system user
-ynh_system_user_delete --username=$app
+ynh_backup --src_path="/etc/php/$phpversion/fpm/pool.d/$app.conf"
 
 #=================================================
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Removal of $app completed" --last
+ynh_print_info --message="Backup script completed for $app. (YunoHost will then actually copy those files to the archive)."
