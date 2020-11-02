@@ -20,6 +20,7 @@ domain=$(ynh_app_setting_get --app=$app --key=domain)
 path_url=$(ynh_app_setting_get --app=$app --key=path)
 is_public=$(ynh_app_setting_get --app=$app --key=is_public)
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
+phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 
 #=================================================
 # CHECK VERSION
@@ -104,15 +105,8 @@ ynh_add_fpm_config --phpversion=$YNH_PHP_VERSION --package="$extra_php_dependenc
 #=================================================
 
 # Set permissions on app files
-chown -R www-data:www-data $final_path
+chown -R $app: $final_path
 chmod -R a+rw $final_path
-
-#=================================================
-# INTEGRATE SERVICE IN YUNOHOST
-#=================================================
-ynh_script_progression --message="Integrating service in YunoHost..." --weight=2
-
-yunohost service add $app --description "A short description of the app" --log "/var/log/$app/$app.log"
 
 #=================================================
 # RELOAD NGINX

@@ -9,7 +9,7 @@
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
 
 ## Overview
-Quick description of this app.
+Yellow is a CMS designed to make the creation of a website ultra-simple and easy to use. Yellow CMS does not require a database.
 
 **Shipped version:** 0.8.16
 
@@ -53,7 +53,7 @@ How to configure this app: From an admin panel, a plain file with SSH, or any ot
 ## Links
 
  * Report a bug: https://github.com/YunoHost-Apps/yellowcms_ynh/issues
- * App website: https://datenstrom.se/yellow/
+ * App website: https://datenstrom.se/
  * Upstream app repository: https://github.com/datenstrom/yellow/
  * YunoHost website: https://yunohost.org/
 
