@@ -1,4 +1,4 @@
-# Yellow for YunoHost
+# Datenstrom Yellow for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/yellow.svg)](https://dash.yunohost.org/appci/app/yellow) ![](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)  
 [![Install Yellow with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=yellow)
@@ -9,7 +9,7 @@
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
 
 ## Overview
-Yellow is a CMS (Content management system) designed to make the creation of a website ultra-simple and easy to use. Yellow does not require a database.
+Datenstrom Yellow is a CMS (Content management system) designed to make the creation of a website ultra-simple and easy to use. Yellow does not require a database.
 
 **Shipped version:** 0.8.16
 
