@@ -10,10 +10,10 @@
     "url": "https://datenstrom.se/yellow/",
     "license": "GPL-2.0-only",
     "maintainer": {
-        "name": ""
+        "name": "eric_G"
     },
     "requirements": {
-        "yunohost": ">> 3.8.1"
+        "yunohost": ">> 4.0.0"
     },
     "multi_instance": true,
     "services": [
