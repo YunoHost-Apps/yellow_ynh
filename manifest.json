@@ -6,14 +6,14 @@
         "en": "Système de gestion de contenu (CMS) for simple website",
         "fr": "Content management system (CMS) pour un site simple"
     },
-    "version": "0.8.16~ynh1",
+    "version": "0.8.16~ynh2",
     "url": "https://datenstrom.se/yellow/",
     "license": "GPL-2.0-only",
     "maintainer": {
-        "name": ""
+        "name": "eric_G"
     },
     "requirements": {
-        "yunohost": ">> 3.8.1"
+        "yunohost": ">> 4.0.0"
     },
     "multi_instance": true,
     "services": [
@@ -47,6 +47,10 @@
                 "ask": {
                     "en": "Is it a public application?",
                     "fr": "Est-ce une application publique ?"
+                },
+                "help": {
+                    "en": "If enabled, Yellow will be accessible by people who do not have an account. This can be changed later via the webadmin.",
+                    "fr": "Si cette case est cochée, Yellow sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
                 },
                 "default": true
             }
