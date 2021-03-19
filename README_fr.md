@@ -11,7 +11,7 @@ Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install
 ## Vue d'ensemble
 Datenstrom Yellow est un CMS (Système de gestion de contenu) conçu pour rendre la création d'un site internet ultra-simple et facile à utiliser. Le jaune ne nécessite pas de base de données.
 
-**Version incluse :** 0.8.16
+**Version incluse :** 0.8.17
 
 ## Captures d'écran
 

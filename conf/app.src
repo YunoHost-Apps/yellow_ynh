@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/datenstrom/yellow/archive/v0.8.16.zip
-SOURCE_SUM=e9c323d50937fc7aa3cc2b3042e2d41f5bd77e5450dbffa0839afa84a31136b9
+SOURCE_URL=https://github.com/datenstrom/yellow/archive/v0.8.17.zip
+SOURCE_SUM=bcf7ca73069db78ad3893dfc249cc117131a947d44954fadb40a0e8a4639322b
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
