@@ -39,8 +39,8 @@ Datenstrom Yellow is a CMS (Content management system) designed to make the crea
 
 #### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/yellow%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/yellow/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/yellow%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/yellow/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/yellow.svg)](https://ci-apps.yunohost.org/ci/apps/yellow/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/yellow.svg)](https://ci-apps-arm.yunohost.org/ci/apps/yellow/)
 
 ## Limitations
 
