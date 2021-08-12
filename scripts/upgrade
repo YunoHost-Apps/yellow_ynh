@@ -97,7 +97,7 @@ ynh_add_nginx_config
 ynh_script_progression --message="Upgrading PHP-FPM configuration..." --weight=2
 
 # Create a dedicated php-fpm config
-ynh_add_fpm_config --package="$extra_php_dependencies"
+ynh_add_fpm_config --footprint=low --package="$extra_php_dependencies"
 
 #=================================================
 # RELOAD NGINX
