@@ -6,8 +6,15 @@
         "en": "Système de gestion de contenu (CMS) for simple website",
         "fr": "Content management system (CMS) pour un site simple"
     },
-    "version": "0.8.17~ynh2",
+    "version": "0.8.17~ynh3",
     "url": "https://datenstrom.se/yellow/",
+    "upstream": {
+        "license": "GPL-2.0-only",
+        "website": "https://datenstrom.se/yellow/",
+        "demo": "https://datenstrom.se/yellow/demo/",
+        "admindoc": "https://datenstrom.se/yellow/help/",
+        "code": "https://github.com/datenstrom/yellow/"
+    },
     "license": "GPL-2.0-only",
     "maintainer": {
         "name": "eric_G"
