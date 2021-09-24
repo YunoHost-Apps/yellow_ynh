@@ -66,9 +66,6 @@ case $asset_url in
   *".zip"*)
     src="app"
     ;;
-  *)
-    src=""
-    ;;
 esac
 
 # If $src is not empty, let's process the asset
@@ -100,7 +97,7 @@ SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=$extension
 SOURCE_IN_SUBDIR=false
 SOURCE_EXTRACT=false
-SOURCE_FILENAME=yellow.$version.zip
+SOURCE_FILENAME=yellow.zip
 EOT
 echo "... conf/$src.src updated"
 
@@ -125,7 +122,7 @@ done
 sudo apt-get install moreutils
 
 # Replace new version in manifest
-echo "$(jq -s --indent 4 ".[] | .version = \"$version~ynh1\"" manifest.json)" > manifest.json
+jq -s --indent 4 ".[] | .version = \"$version~ynh1\"" manifest.json | sponge manifest.json
 
 # No need to update the README, yunohost-bot takes care of it
 
