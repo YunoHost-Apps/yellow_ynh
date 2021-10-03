@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Content management system (CMS) pour un site simple
 
-**Version incluse :** 0.8.17~ynh4
+**Version incluse :** 0.8.18~ynh1
 
 **Démo :** https://datenstrom.se/yellow/demo/
 
