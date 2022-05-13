@@ -11,6 +11,7 @@
 		setup_private=1
 		setup_public=1
 		upgrade=1
+		upgrade=1	from_commit=fb406ca10bf4af1d44b5fcecc4d6e54aee335fce
 		backup_restore=1
 		multi_instance=1
 		change_url=1
@@ -18,6 +19,6 @@
 Email=
 Notification=none
 ;;; Upgrade options
-	; commit=CommitHash
-		name=Name and date of the commit.
+	; commit=fb406ca10bf4af1d44b5fcecc4d6e54aee335fce
+		name=Testing (#22)
 		manifest_arg=domain=DOMAIN&path=PATH&is_public=1&
