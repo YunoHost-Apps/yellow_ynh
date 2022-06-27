@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Yellow for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/yellow.svg)](https://dash.yunohost.org/appci/app/yellow) ![](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/yellow.svg)](https://dash.yunohost.org/appci/app/yellow) ![Working status](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)  
 [![Install Yellow with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yellow)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -17,31 +17,32 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Système de gestion de contenu (CMS) for simple website
 
-**Shipped version:** 0.8.20~ynh1
+**Shipped version:** 0.8.20~ynh2
 
 **Demo:** https://datenstrom.se/yellow/demo/
 
 ## Screenshots
 
-![](./doc/screenshots/datenstrom-yellow-en.png)
+![Screenshot of Yellow](./doc/screenshots/datenstrom-yellow-en.png)
 
 ## Documentation and resources
 
-* Official app website: https://datenstrom.se/yellow/
-* Official admin documentation: https://datenstrom.se/yellow/help/
-* Upstream app code repository: https://github.com/datenstrom/yellow/
-* YunoHost documentation for this app: https://yunohost.org/app_yellow
-* Report a bug: https://github.com/YunoHost-Apps/yellow_ynh/issues
+* Official app website: <https://datenstrom.se/yellow/>
+* Official admin documentation: <https://datenstrom.se/yellow/help/>
+* Upstream app code repository: <https://github.com/datenstrom/yellow/>
+* YunoHost documentation for this app: <https://yunohost.org/app_yellow>
+* Report a bug: <https://github.com/YunoHost-Apps/yellow_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/yellow_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/yellow_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade yellow -u https://github.com/YunoHost-Apps/yellow_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
