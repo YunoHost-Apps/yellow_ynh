@@ -36,7 +36,7 @@
             {
                 "name": "path",
                 "type": "path",
-                "example": "/example",
+                "example": "/yellow",
                 "default": "/yellow"
             },
             {
