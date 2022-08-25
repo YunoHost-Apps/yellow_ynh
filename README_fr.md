@@ -17,7 +17,8 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Content management system (CMS) pour un site simple
 
-**Version incluse :** 0.8.20~ynh2
+**Version incluse :** 0.8.20~ynh2
+
 
 **Démo :** https://datenstrom.se/yellow/demo/
 
