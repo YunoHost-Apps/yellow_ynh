@@ -19,7 +19,6 @@ Content management system (CMS) pour un site simple
 
 **Version incluse :** 0.8.20~ynh3
 
-
 **Démo :** https://datenstrom.se/yellow/demo/
 
 ## Captures d'écran
