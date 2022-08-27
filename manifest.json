@@ -3,8 +3,8 @@
     "id": "yellow",
     "packaging_format": 1,
     "description": {
-        "en": "Système de gestion de contenu (CMS) for simple website",
-        "fr": "Content management system (CMS) pour un site simple"
+        "en": "Content management system (CMS) for simple website",
+        "fr": "Système de gestion de contenu (CMS) pour un site simple"
     },
     "version": "0.8.20~ynh3",
     "url": "https://datenstrom.se/yellow/",
