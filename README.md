@@ -15,10 +15,9 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Système de gestion de contenu (CMS) for simple website
+Content management system (CMS) for simple website
 
 **Shipped version:** 0.8.20~ynh3
-
 
 **Demo:** https://datenstrom.se/yellow/demo/
 
