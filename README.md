@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Content management system (CMS) for simple website
 
-**Shipped version:** 0.8.20~ynh3
+**Shipped version:** 0.8.20~ynh4 *(:warning: This is the `testing` branch. The [`master` branch](https://github.com/YunoHost-Apps/yellow_ynh/tree/master) used in the catalog is currently on version 0.8.20\~ynh3.)*
 
 
 **Demo:** https://datenstrom.se/yellow/demo/
