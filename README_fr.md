@@ -17,7 +17,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Système de gestion de contenu (CMS) pour un site simple
 
-**Version incluse :** 0.8.20~ynh3
+**Version incluse :** 0.8.20~ynh4 *(:warning: Il s'agit de la branche `testing`. La [branche `master`](https://github.com/YunoHost-Apps/yellow_ynh/tree/master) utilisée dans le catalogue est actuellement en 0.8.20\~ynh3.)*
 
 
 **Démo :** https://datenstrom.se/yellow/demo/
