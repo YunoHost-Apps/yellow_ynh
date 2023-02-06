@@ -27,6 +27,11 @@ then
 	ynh_setup_source --dest_dir="$install_dir" --keep="content media system/extensions"
 fi
 
+# Set permissions to app files
+chmod 750 "$install_dir"
+chmod -R o-rwx "$install_dir"
+chown -R $app:www-data "$install_dir"
+
 #=================================================
 # PHP-FPM CONFIGURATION
 #=================================================
@@ -42,15 +47,6 @@ ynh_script_progression --message="Upgrading NGINX web server configuration..." -
 
 # Create a dedicated NGINX config
 ynh_add_nginx_config
-
-#=================================================
-# SECURE FILES AND DIRECTORIES
-#=================================================
-
-# Set permissions to app files
-chmod 750 "$install_dir"
-chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
 
 #=================================================
 # END OF SCRIPT
