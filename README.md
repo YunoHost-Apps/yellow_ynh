@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Yellow for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/yellow.svg)](https://dash.yunohost.org/appci/app/yellow) ![Working status](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/yellow.svg)](https://dash.yunohost.org/appci/app/yellow) ![Working status](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)
 [![Install Yellow with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yellow)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -17,8 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Content management system (CMS) for simple website
 
-**Shipped version:** 0.8.20~ynh4 *(:warning: This is the `testing` branch. The [`master` branch](https://github.com/YunoHost-Apps/yellow_ynh/tree/master) used in the catalog is currently on version 0.8.20\~ynh3.)*
-
+**Shipped version:** 0.8.20~ynh4
 
 **Demo:** https://datenstrom.se/yellow/demo/
 
