@@ -17,7 +17,7 @@ admindoc = "https://datenstrom.se/yellow/help/"
 code = "https://github.com/datenstrom/yellow/"
 
 [integration]
-yunohost = ">= 11.1.5"
+yunohost = ">= 11.1.6"
 architectures = "all"
 multi_instance = true
 ldap = false
