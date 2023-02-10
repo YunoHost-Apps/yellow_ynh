@@ -6,4 +6,4 @@ test_format = 1.0
     # Commits to test upgrade from
     # -------------------------------
 
-    test_upgrade_from.fb406ca1.name = "Upgrade from (#22)"
+    test_upgrade_from.24ae37ee.name = "Upgrade from 0.8.20~ynh4"
