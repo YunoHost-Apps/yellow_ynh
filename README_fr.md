@@ -6,6 +6,7 @@ It shall NOT be edited by hand.
 # Yellow pour YunoHost
 
 [![Niveau d’intégration](https://dash.yunohost.org/integration/yellow.svg)](https://dash.yunohost.org/appci/app/yellow) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)
+
 [![Installer Yellow avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yellow)
 
 *[Read this readme in english.](./README.md)*
