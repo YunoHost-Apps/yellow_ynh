@@ -33,6 +33,8 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://github.com/datenstrom/yellow/archive/f3b9b7bc4cdf4fac2fda682dc1bcf57a7a5672e3.zip"
         sha256 = "5bd2f016897d6a38cf342633250c6c6c3ccf41c7aa5214773b85b90b0aef2f79"
+        autoupdate.upstream = "https://github.com/datenstrom/yellow"
+        autoupdate.strategy = "latest_github_commit"
 
     [install.domain]
     type = "domain"
