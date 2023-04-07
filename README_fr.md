@@ -16,7 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Système de gestion de contenu (CMS) pour un site simple
+Content management system (CMS) for simple website
 
 **Version incluse :** 0.8.20~ynh4
 
