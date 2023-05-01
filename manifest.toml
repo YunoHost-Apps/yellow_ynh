@@ -1,0 +1,59 @@
+packaging_format = 2
+
+id = "yellow"
+name = "Yellow"
+description.en = "Content management system (CMS) for simple website"
+description.fr = "Système de gestion de contenu (CMS) pour un site simple"
+
+version = "0.8.20~ynh4"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "GPL-2.0-only"
+website = "https://datenstrom.se/yellow/"
+demo = "https://datenstrom.se/yellow/demo/"
+admindoc = "https://datenstrom.se/yellow/help/"
+code = "https://github.com/datenstrom/yellow/"
+
+[integration]
+yunohost = ">= 11.1.18"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+
+    [resources.sources]
+
+        [resources.sources.main]
+        url = "https://github.com/datenstrom/yellow/archive/f3b9b7bc4cdf4fac2fda682dc1bcf57a7a5672e3.zip"
+        sha256 = "5bd2f016897d6a38cf342633250c6c6c3ccf41c7aa5214773b85b90b0aef2f79"
+        autoupdate.upstream = "https://github.com/datenstrom/yellow"
+        autoupdate.strategy = "latest_github_commit"
+
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/yellow"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "php8.0-mbstring php8.0-xmlrpc php8.0-sqlite3 php8.0-soap php8.0-gd php8.0-xml php8.0-cli php8.0-curl php8.0-zip"
