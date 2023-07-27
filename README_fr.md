@@ -5,32 +5,32 @@ It shall NOT be edited by hand.
 
 # Yellow pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/yellow.svg)](https://dash.yunohost.org/appci/app/yellow) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/yellow.svg)](https://dash.yunohost.org/appci/app/yellow) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)
+
 [![Installer Yellow avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yellow)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Yellow rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Yellow rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Système de gestion de contenu (CMS) pour un site simple
 
-**Version incluse :** 0.8.20~ynh4 *(:warning: Il s'agit de la branche `testing`. La [branche `master`](https://github.com/YunoHost-Apps/yellow_ynh/tree/master) utilisée dans le catalogue est actuellement en 0.8.20\~ynh3.)*
-
+**Version incluse :** 0.8.20~ynh4
 
 **Démo :** https://datenstrom.se/yellow/demo/
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Yellow](./doc/screenshots/datenstrom-yellow-en.png)
+![Capture d’écran de Yellow](./doc/screenshots/datenstrom-yellow-en.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://datenstrom.se/yellow/>
-* Documentation officielle de l'admin : <https://datenstrom.se/yellow/help/>
-* Dépôt de code officiel de l'app : <https://github.com/datenstrom/yellow/>
+* Site officiel de l’app : <https://datenstrom.se/yellow/>
+* Documentation officielle de l’admin : <https://datenstrom.se/yellow/help/>
+* Dépôt de code officiel de l’app : <https://github.com/datenstrom/yellow/>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_yellow>
 * Signaler un bug : <https://github.com/YunoHost-Apps/yellow_ynh/issues>
 
@@ -46,4 +46,4 @@ ou
 sudo yunohost app upgrade yellow -u https://github.com/YunoHost-Apps/yellow_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
