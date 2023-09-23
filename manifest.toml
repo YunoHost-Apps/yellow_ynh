@@ -5,7 +5,7 @@ name = "Yellow"
 description.en = "Content management system (CMS) for simple website"
 description.fr = "Système de gestion de contenu (CMS) pour un site simple"
 
-version = "2023.09.23~ynh5"
+version = "2023.09.23~ynh1"
 
 maintainers = ["eric_G"]
 
