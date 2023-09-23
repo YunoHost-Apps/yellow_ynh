@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Yellow is for people who make small websites
 
-**Version incluse :** 2023.09.23~ynh5
+**Version incluse :** 2023.09.23~ynh1
 
 **Démo :** https://datenstrom.se/yellow/demo/
 
