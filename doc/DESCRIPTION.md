@@ -1,0 +1,1 @@
+Yellow is for people who make small websites
