@@ -16,7 +16,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Content management system (CMS) for simple website
+Yellow is for people who make small websites
 
 **Shipped version:** 0.8.20~ynh4
 
