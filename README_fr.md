@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Yellow is for people who make small websites
 
-**Version incluse :** 2023.09.23~ynh1
+**Version incluse :** 2023.10.04~ynh1
 
 **Démo :** https://datenstrom.se/yellow/demo/
 
@@ -31,7 +31,6 @@ Yellow is for people who make small websites
 * Site officiel de l’app : <https://datenstrom.se/yellow/>
 * Documentation officielle de l’admin : <https://datenstrom.se/yellow/help/>
 * Dépôt de code officiel de l’app : <https://github.com/datenstrom/yellow/>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_yellow>
 * Signaler un bug : <https://github.com/YunoHost-Apps/yellow_ynh/issues>
 
 ## Informations pour les développeurs
