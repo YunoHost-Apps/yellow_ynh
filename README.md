@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Yellow is for people who make small websites
 
-**Shipped version:** 2023.10.24~ynh1
+**Shipped version:** 2023.10.26~ynh1
 
 **Demo:** https://datenstrom.se/yellow/demo/
 
@@ -31,6 +31,7 @@ Yellow is for people who make small websites
 * Official app website: <https://datenstrom.se/yellow/>
 * Official admin documentation: <https://datenstrom.se/yellow/help/>
 * Upstream app code repository: <https://github.com/datenstrom/yellow/>
+* YunoHost Store: <https://apps.yunohost.org/app/yellow>
 * Report a bug: <https://github.com/YunoHost-Apps/yellow_ynh/issues>
 
 ## Developer info
