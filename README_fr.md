@@ -31,7 +31,7 @@ Yellow is for people who make small websites
 * Site officiel de l’app : <https://datenstrom.se/yellow/>
 * Documentation officielle de l’admin : <https://datenstrom.se/yellow/help/>
 * Dépôt de code officiel de l’app : <https://github.com/datenstrom/yellow/>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_yellow>
+* YunoHost Store: <https://apps.yunohost.org/app/yellow>
 * Signaler un bug : <https://github.com/YunoHost-Apps/yellow_ynh/issues>
 
 ## Informations pour les développeurs
