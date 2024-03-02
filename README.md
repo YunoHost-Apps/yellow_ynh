@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Yellow is for people who make small websites
 
-**Shipped version:** 2024.01.06~ynh1
+**Shipped version:** 2024.03.02~ynh1
 
 **Demo:** https://datenstrom.se/yellow/demo/
 
