@@ -17,10 +17,9 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 ## Vue d’ensemble
 
 Yellow is for people who make small websites
+**Version incluse :** 2024.03.19~ynh1
 
-**Version incluse :** 2024.03.02~ynh1
-
-**Démo :** https://datenstrom.se/yellow/demo/
+**Démo :** <https://datenstrom.se/yellow/demo/>
 
 ## Captures d’écran
 
@@ -28,11 +27,11 @@ Yellow is for people who make small websites
 
 ## Documentations et ressources
 
-* Site officiel de l’app : <https://datenstrom.se/yellow/>
-* Documentation officielle de l’admin : <https://datenstrom.se/yellow/help/>
-* Dépôt de code officiel de l’app : <https://github.com/datenstrom/yellow/>
-* YunoHost Store: <https://apps.yunohost.org/app/yellow>
-* Signaler un bug : <https://github.com/YunoHost-Apps/yellow_ynh/issues>
+- Site officiel de l’app : <https://datenstrom.se/yellow/>
+- Documentation officielle de l’admin : <https://datenstrom.se/yellow/help/>
+- Dépôt de code officiel de l’app : <https://github.com/datenstrom/yellow/>
+- YunoHost Store : <https://apps.yunohost.org/app/yellow>
+- Signaler un bug : <https://github.com/YunoHost-Apps/yellow_ynh/issues>
 
 ## Informations pour les développeurs
 
@@ -40,7 +39,7 @@ Merci de faire vos pull request sur la [branche testing](https://github.com/Yuno
 
 Pour essayer la branche testing, procédez comme suit.
 
-``` bash
+```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/yellow_ynh/tree/testing --debug
 ou
 sudo yunohost app upgrade yellow -u https://github.com/YunoHost-Apps/yellow_ynh/tree/testing --debug
