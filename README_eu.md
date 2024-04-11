@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 Yellow is for people who make small websites
 
-**Paketatutako bertsioa:** 2024.03.02~ynh1
+**Paketatutako bertsioa:** 2024.04.10~ynh1
 
 **Demoa:** <https://datenstrom.se/yellow/demo/>
 
