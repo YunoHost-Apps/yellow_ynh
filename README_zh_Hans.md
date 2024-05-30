@@ -18,7 +18,7 @@
 
 Yellow is for people who make small websites
 
-**分发版本：** 2024.05.09~ynh1
+**分发版本：** 2024.05.29~ynh1
 
 **演示：** <https://datenstrom.se/yellow/demo/>
 
