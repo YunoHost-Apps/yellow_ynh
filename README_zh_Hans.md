@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Yellow
+# YunoHost 上的 Yellow
 
 [![集成程度](https://dash.yunohost.org/integration/yellow.svg)](https://dash.yunohost.org/appci/app/yellow) ![工作状态](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)
 
@@ -18,7 +18,7 @@
 
 Yellow is for people who make small websites
 
-**分发版本：** 2024.04.13~ynh1
+**分发版本：** 2024.05.29~ynh1
 
 **演示：** <https://datenstrom.se/yellow/demo/>
 
