@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Yellow
 
-[![集成程度](https://dash.yunohost.org/integration/yellow.svg)](https://dash.yunohost.org/appci/app/yellow) ![工作状态](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/yellow.svg)](https://ci-apps.yunohost.org/ci/apps/yellow/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)
 
 [![使用 YunoHost 安装 Yellow](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yellow)
 
@@ -18,7 +18,7 @@
 
 Yellow is for people who make small websites
 
-**分发版本：** 2024.05.29~ynh1
+**分发版本：** 2024.07.22~ynh1
 
 **演示：** <https://datenstrom.se/yellow/demo/>
 
