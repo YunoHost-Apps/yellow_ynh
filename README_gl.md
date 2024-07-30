@@ -5,7 +5,7 @@ NON debe editarse manualmente.
 
 # Yellow para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/yellow.svg)](https://dash.yunohost.org/appci/app/yellow) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/yellow.svg)](https://ci-apps.yunohost.org/ci/apps/yellow/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)
 
 [![Instalar Yellow con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yellow)
 
@@ -18,7 +18,7 @@ NON debe editarse manualmente.
 
 Yellow is for people who make small websites
 
-**Versión proporcionada:** 2024.05.29~ynh1
+**Versión proporcionada:** 2024.07.22~ynh1
 
 **Demo:** <https://datenstrom.se/yellow/demo/>
 
