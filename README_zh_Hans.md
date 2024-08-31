@@ -16,7 +16,7 @@
 
 ## 概况
 
-Yellow is for people who make small websites
+Yellow is for people who make small websites.
 
 **分发版本：** 2024.08.19~ynh1
 

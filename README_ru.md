@@ -16,7 +16,7 @@
 
 ## Обзор
 
-Yellow is for people who make small websites
+Yellow is for people who make small websites.
 
 **Поставляемая версия:** 2024.08.19~ynh1
 

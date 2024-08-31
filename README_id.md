@@ -16,7 +16,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 ## Ringkasan
 
-Yellow is for people who make small websites
+Yellow is for people who make small websites.
 
 **Versi terkirim:** 2024.08.19~ynh1
 

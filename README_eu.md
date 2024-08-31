@@ -16,7 +16,7 @@ EZ editatu eskuz.
 
 ## Aurreikuspena
 
-Yellow is for people who make small websites
+Yellow is for people who make small websites.
 
 **Paketatutako bertsioa:** 2024.08.19~ynh1
 

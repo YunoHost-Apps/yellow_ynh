@@ -16,7 +16,7 @@ NON debe editarse manualmente.
 
 ## Vista xeral
 
-Yellow is for people who make small websites
+Yellow is for people who make small websites.
 
 **Versión proporcionada:** 2024.08.19~ynh1
 

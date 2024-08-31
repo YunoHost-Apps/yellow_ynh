@@ -16,7 +16,7 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Yellow is for people who make small websites
+Yellow is for people who make small websites.
 
 **Version incluse :** 2024.08.19~ynh1
 
