@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 Yellow is for people who make small websites.
 
-**Versión actual:** 2024.08.19~ynh1
+**Versión actual:** 2024.08.28~ynh1
 
 **Demo:** <https://datenstrom.se/yellow/demo/>
 
