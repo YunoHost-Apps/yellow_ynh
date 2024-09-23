@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 Yellow is for people who make small websites.
 
-**Versión actual:** 2024.08.28~ynh1
+**Versión actual:** 2024.09.16~ynh1
 
 **Demo:** <https://datenstrom.se/yellow/demo/>
 
@@ -36,7 +36,7 @@ Yellow is for people who make small websites.
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/yellow_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/yellow_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 

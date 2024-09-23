@@ -18,7 +18,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Yellow is for people who make small websites.
 
-**Versi terkirim:** 2024.08.28~ynh1
+**Versi terkirim:** 2024.09.16~ynh1
 
 **Demo:** <https://datenstrom.se/yellow/demo/>
 
