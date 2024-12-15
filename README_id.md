@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Yellow untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/yellow.svg)](https://ci-apps.yunohost.org/ci/apps/yellow/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/yellow)](https://ci-apps.yunohost.org/ci/apps/yellow/)
+![Status kerja](https://apps.yunohost.org/badge/state/yellow)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/yellow)
 
 [![Pasang Yellow dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yellow)
 
@@ -18,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Yellow is for people who make small websites.
 
-**Versi terkirim:** 2024.08.28~ynh1
+**Versi terkirim:** 2024.12.11~ynh1
 
 **Demo:** <https://datenstrom.se/yellow/demo/>
 

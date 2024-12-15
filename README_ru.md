@@ -5,7 +5,9 @@
 
 # Yellow для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/yellow.svg)](https://ci-apps.yunohost.org/ci/apps/yellow/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/yellow)](https://ci-apps.yunohost.org/ci/apps/yellow/)
+![Состояние работы](https://apps.yunohost.org/badge/state/yellow)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/yellow)
 
 [![Установите Yellow с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yellow)
 
@@ -18,7 +20,7 @@
 
 Yellow is for people who make small websites.
 
-**Поставляемая версия:** 2024.08.28~ynh1
+**Поставляемая версия:** 2024.12.11~ynh1
 
 **Демо-версия:** <https://datenstrom.se/yellow/demo/>
 
