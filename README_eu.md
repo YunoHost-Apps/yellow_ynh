@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Yellow YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/yellow.svg)](https://dash.yunohost.org/appci/app/yellow) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/yellow.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/yellow.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/yellow)](https://ci-apps.yunohost.org/ci/apps/yellow/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/yellow)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/yellow)
 
 [![Instalatu Yellow YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yellow)
 
@@ -16,9 +18,9 @@ EZ editatu eskuz.
 
 ## Aurreikuspena
 
-Yellow is for people who make small websites
+Yellow is for people who make small websites.
 
-**Paketatutako bertsioa:** 2024.05.29~ynh1
+**Paketatutako bertsioa:** 2024.12.11~ynh1
 
 **Demoa:** <https://datenstrom.se/yellow/demo/>
 
