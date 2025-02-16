@@ -20,7 +20,7 @@
 
 Yellow is for people who make small websites.
 
-**Поставляемая версия:** 2025.01.17~ynh1
+**Поставляемая версия:** 2025.02.15~ynh1
 
 **Демо-версия:** <https://datenstrom.se/yellow/demo/>
 
