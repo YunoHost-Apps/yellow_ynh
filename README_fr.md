@@ -20,7 +20,7 @@ Il NE doit PAS être modifié à la main.
 
 Yellow is for people who make small websites.
 
-**Version incluse :** 2025.01.17~ynh1
+**Version incluse :** 2025.02.15~ynh1
 
 **Démo :** <https://datenstrom.se/yellow/demo/>
 
