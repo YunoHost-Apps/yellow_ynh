@@ -5,7 +5,7 @@ name = "Yellow"
 description.en = "Content management system for simple website"
 description.fr = "Système de gestion de contenu pour un site simple"
 
-version = "2025.04.04~ynh1"
+version = "2025.08.11~ynh1"
 
 maintainers = []
 
@@ -44,8 +44,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/datenstrom/yellow/archive/b51345c3c7ccd522b00396aa6300a189a3df77d7.tar.gz"
-        sha256 = "e59af4fc273a01b94e0f5e6d13818fdcc6f9b62988e9ca99647cc30b90b4395f"
+        url = "https://github.com/datenstrom/yellow/archive/61b0dbc36a56aab7c24d4e3c54dc2c2b5410da64.tar.gz"
+        sha256 = "de7216e52c10b8b3355a54b37d92cfac8a09aabde2ff4b18daa83016aaea5ebd"
         autoupdate.upstream = "https://github.com/datenstrom/yellow"
         autoupdate.strategy = "latest_github_commit"
 
