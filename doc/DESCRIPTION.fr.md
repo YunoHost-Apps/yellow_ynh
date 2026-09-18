@@ -1,0 +1,1 @@
+La couleur jaune est destinée aux personnes qui créent de petits sites web.
