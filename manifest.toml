@@ -17,7 +17,7 @@ admindoc = "https://datenstrom.se/yellow/help/"
 code = "https://github.com/datenstrom/yellow/"
 
 [integration]
-yunohost = ">= 12.1.38"
+yunohost = ">= 12.1.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -57,4 +57,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-mbstring, php8.3-xmlrpc, php8.3-sqlite3, php8.3-soap, php8.3-gd, php8.3-xml, php8.3-cli, php8.3-curl, php8.3-zip"
+    packages = "php8.5-mbstring, php8.5-xmlrpc, php8.5-sqlite3, php8.5-soap, php8.5-gd, php8.5-xml, php8.5-cli, php8.5-curl, php8.5-zip"
